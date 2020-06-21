@@ -1,0 +1,29 @@
+<html>
+
+<body>
+    <div style="float:left;margin-left:50px;">
+        <canvas id="label" name="label" style="float:left"></canvas>
+        <div>
+            <p>
+                <button id="b_reset" onclick="reset()">Restart</button>
+            </p>
+            <p>
+                <button id="b_flip" onclick="flipBoard()">Flip Sides</button>
+            </p>
+            <p>
+                <select id="s_level" onchange="changeLevel()">
+                    <option value="4">Level 1</option>
+                    <option value="16">Level 2</option>
+                    <option value="64">Level 3</option>
+                </select>
+            </p>
+        </div>
+    </div>
+    <div style="margin:auto">
+        <canvas id="canvas" name="canvas"></canvas>
+    </div>
+
+</body>
+<script type="text/javascript" src="main.js"></script>
+
+</html>
